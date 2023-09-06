@@ -9,7 +9,6 @@ _paginate: false
 
 # <!--fit--> Git Flow, Pull Requests & Resolving Merge Conflicts
 
-
 ---
 # 🌟 Why Version Control?
 - Emphasis on team collaboration 📌
