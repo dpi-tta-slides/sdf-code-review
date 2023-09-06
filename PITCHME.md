@@ -30,8 +30,10 @@ _paginate: false
 ```bash
 # usually want to create branch from main
 git checkout main
+
 # fetch latest changes
 git pull
+
 # create new branch (follow suggested naming guidelines)
 git checkout -b feature/my-new-feature
 ```
