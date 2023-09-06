@@ -14,13 +14,17 @@ _paginate: false
 - Emphasis on team collaboration 📌
 
 ---
-# 🛤️ Git Flow 
+# 🛤️ Git Flow
 
 - Master/Main Branch 🏛️
-    - The 'sacred' branch.
-    - Always production-ready.
+  - The 'sacred' branch.
+  - Always production-ready.
 - Feature Branches 🌿
-    - Branches created to develop new features without disturbing the main branch. 
+  - Branches created to develop new features without disturbing the main branch.
+
+---
+
+![bg contain](./assets/commit-graph.png)
 
 ---
 
@@ -64,8 +68,21 @@ git push
 - Merge into main 🔀
 
 ---
+# 🤔 Why PRs?
+
+![contain](./assets/pr.png)
+
+---
 #  🤔 Why PRs?
 - Allows team members to review code changes before they're merged.
+
+![bg right contain](./assets/pr-comments.png)
+
+---
+#  🤔 Why PRs?
+- See a clean diff
+
+![bg right contain](./assets/pr-diff.png)
 
 ---
 
@@ -75,6 +92,11 @@ git push
 - Merge conflicts are caused by overlapping changes. ⛏️🚫
 - Identify the conflicted areas and decide which code stays, which code goes. ❗
 - Commit the resolved changes.
+
+---
+# 🔥 Merge Conflicts
+
+![](./assets/merge-conflict.png)
 
 ---
 
@@ -161,3 +183,12 @@ git checkout main
 ```bash
 git pull origin main
 ```
+
+---
+# Make sure to set configuration to resolve conflicts using merge
+
+```bash
+git config pull.rebase false
+```
+
+![](./assets/config-merge.png)
