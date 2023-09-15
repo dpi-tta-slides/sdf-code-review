@@ -1,17 +1,33 @@
 ---
 marp: true
-title: Git Flow, Pull Requests & Resolving Merge Conflicts
+title: Code Review and Pull Requests
 description: This lesson introduces pull requests and git flow
 transition: fade
 paginate: true
 _paginate: false
 ---
 
-# <!--fit--> Git Flow, Pull Requests & Resolving Merge Conflicts
+# <!--fit--> Code Review and Pull Requests
 
 ---
-# 🌟 Why Version Control?
-- Emphasis on team collaboration 📌
+
+# 🌟 Why?
+- One of the most important components of staying happy for developers is feeling like we’re always continuing to learn.
+- One of the best ways to promote learning on a team is a strong Code Review Culture.
+
+---
+# 🌟 Why?
+
+- It feels great to get alternative ideas on how to attack a problem right when you are setting out.
+- Often, someone else on the team can alert you to a different approach that you hadn’t considered or heard about.
+
+---
+# 🌟 Why?
+
+- You would be surprised at how often a junior developer can teach a senior developer a new trick.
+- Code Review is an incredibly good way to train junior developers.
+- Code Reviews demolish knowledge silos, reducing your risk.
+- Oh, and they helps catch bugs sometimes, too.
 
 ---
 # 🛤️ Git Flow
@@ -192,3 +208,10 @@ git config pull.rebase false
 ```
 
 ![](./assets/config-merge.png)
+
+
+---
+
+# References
+
+- [RailsConf 2015 - Implementing a Strong Code-Review Culture](https://www.youtube.com/watch?v=PJjmw9TRB7s)
