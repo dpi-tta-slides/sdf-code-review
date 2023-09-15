@@ -1,13 +1,13 @@
 ---
 marp: true
-title: Code Review and Pull Requests
-description: This lesson introduces pull requests and git flow
+title: Code Review 
+description: This lesson introduces code review and pull requests
 transition: fade
 paginate: true
 _paginate: false
 ---
 
-# <!--fit--> Code Review and Pull Requests
+# <!--fit--> Code Review
 
 ---
 

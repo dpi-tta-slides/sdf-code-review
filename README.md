@@ -1,10 +1,15 @@
-# Pull Request
-This lesson introduces pull requests and git flow
+# Code Review
+This lesson introduces code review and pull requests
 
-[slides](https://dpi-we.github.io/sdf-pull-request)
+[slides](https://dpi-we.github.io/sdf-code-review)
+
+## Topics
+- Code Review
+- Version Control
+- GitHub
 
 ## Highlights
-- Why Version Control?
+- Why?
 - Git Flow
 - Git Flow Lifecycle
 - Why PRs?
