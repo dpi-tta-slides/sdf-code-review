@@ -129,6 +129,14 @@ git pull origin main
 - Clear commit messages.
 
 ---
+
+# 👩‍🔧 Best Practices
+
+- Senior and Lead developers are usually very busy
+<!-- don't be annoying 😅 -->
+- Make sure to reach out if you are waiting on a review
+
+---
 # 🤪 Fun Facts
 https://github.com/DPI-WE/fun-facts
 
