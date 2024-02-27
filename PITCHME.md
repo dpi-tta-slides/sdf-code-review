@@ -173,27 +173,24 @@ git pull origin main
 ```
 
 ---
+## Working on a new feature using Git Flow
 
-## Create a new feature branch:
+1. Create a new feature branch
+`git checkout -b feature/cuisine-filter`
 
-
-```bash
-git checkout -b feature/cuisine-filter
-```
-
----
-## Make changes & commit:
+2. Make changes & commit
 
 ```bash
 git add .
 git commit -m "Implement cuisine filter functionality"
 ```
----
-## Push your feature branch to the remote repository.
+
+3. Push your feature branch to the remote repository
 
 ```bash
 git push origin feature/cuisine-filter
 ```
+
 ---
 ## Switch between branches (eg move back to main).
 
@@ -207,6 +204,32 @@ git checkout main
 ```bash
 git pull origin main
 ```
+
+---
+## Checkout Remote Branch
+
+Good idea to checkout someone else's branch when doing a code review to make sure it works on your machine
+
+1. Fetch all remote branches
+`git fetch origin`
+
+2. List the branches available for checkout
+`git branch -a`
+
+3. Pull changes from a remote branch
+`git checkout -b someone-elses-branch origin/someone-elses-branch`
+
+if you make a change, commit, then `git push`, git automatically sets the local branch to track that remote branch
+
+---
+## Check your status
+
+This command will tell you what branch you are on, any diffs, staged files, etc.
+
+<!-- TODO: add screenshot -->
+`git status`
+
+
 
 ---
 # Make sure to set configuration to resolve conflicts using merge
