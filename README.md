@@ -1,7 +1,7 @@
 # Code Review
 This lesson introduces code review and pull requests
 
-[slides](https://dpi-we.github.io/sdf-code-review)
+[slides](https://dpi-we.github.io/slides-sdf-code-review)
 
 ## Topics
 - Code Review
